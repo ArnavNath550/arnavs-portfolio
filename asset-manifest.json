@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/arnavs-portfolio/static/css/main.06ddc1b7.css",
-    "main.js": "/arnavs-portfolio/static/js/main.5163f016.js",
+    "main.css": "/arnavs-portfolio/static/css/main.ece9fd41.css",
+    "main.js": "/arnavs-portfolio/static/js/main.9502d763.js",
     "static/js/787.744c3d5c.chunk.js": "/arnavs-portfolio/static/js/787.744c3d5c.chunk.js",
     "static/media/rain_background.png": "/arnavs-portfolio/static/media/rain_background.6bbbb8cac55d9779576e.png",
     "static/media/clouds_background.jpeg": "/arnavs-portfolio/static/media/clouds_background.794e3a8bb5f3783f6080.jpeg",
@@ -15,12 +15,12 @@
     "static/media/green-abstract.webp": "/arnavs-portfolio/static/media/green-abstract.74d45369d463352ff824.webp",
     "static/media/logo.svg": "/arnavs-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/arnavs-portfolio/index.html",
-    "main.06ddc1b7.css.map": "/arnavs-portfolio/static/css/main.06ddc1b7.css.map",
-    "main.5163f016.js.map": "/arnavs-portfolio/static/js/main.5163f016.js.map",
+    "main.ece9fd41.css.map": "/arnavs-portfolio/static/css/main.ece9fd41.css.map",
+    "main.9502d763.js.map": "/arnavs-portfolio/static/js/main.9502d763.js.map",
     "787.744c3d5c.chunk.js.map": "/arnavs-portfolio/static/js/787.744c3d5c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06ddc1b7.css",
-    "static/js/main.5163f016.js"
+    "static/css/main.ece9fd41.css",
+    "static/js/main.9502d763.js"
   ]
 }
