@@ -1,24 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
+import HomePage from './pages/home-page';
+import DevelopmentSkillsSection from './components/DevelopmentSkillsSection';
+import FadeUp from './components/Animations/FadeUp';
+import AnimatedLine from './components/Animations/AnimatedLine';
+import DesigningSkillsSection from './components/DesigningSkillsSection';
+import AndSectionDivider from './components/AndSectionDivider';
+import StoryDevelopment from './components/StoryDevelopment';
+import BioSection from './components/BioSection';
+import ExperienceSectionDivider from './components/ExperienceSectionDivider';
+import ExperienceSection from './components/ExperienceSection';
+import GithubProjectsSection from './components/GithubProjectsSection';
+import FooterSection from './components/FooterSection';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <HomePage />
+      <BioSection />
+      <DevelopmentSkillsSection />
+      <AndSectionDivider />
+      <DesigningSkillsSection />
+      <ExperienceSectionDivider />
+      <ExperienceSection />
+      <GithubProjectsSection />
+      <FooterSection />
+    </>
   );
 }
 

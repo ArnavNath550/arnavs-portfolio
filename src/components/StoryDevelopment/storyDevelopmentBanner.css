@@ -1,0 +1,40 @@
+.story-development-banner {
+    width: 100%;
+    background-color: var(--calm);
+}
+
+.story-section {
+    width: 50%;
+    height: 85vh;
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.story-section.left {
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.story-section.right {
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.story-section span {
+    font-size: 3rem;
+    color: var(--primary);
+    line-height: 75px;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+}
+
+.right-story-section {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+}

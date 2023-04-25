@@ -1,0 +1,75 @@
+.desktop-only {
+    display: block;
+}
+
+.mobile-only {
+    display: none!important;
+}
+
+@media all and (max-width: 767px) {
+    .desktop-only {
+        display: none;
+    }
+
+    .mobile-only {
+        display: block!important;
+    }
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    background-color: #fff!important;
+}
+
+.large-section-container {
+    padding: 5em;
+    z-index: 1000;
+}
+
+.large-header {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.large-header-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 55px;
+}
+
+@media all and (max-width: 767px) {
+    .large-section-container {
+        padding: 2rem;
+    }
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+
+@media all and (max-width: 767px) {
+    .skills-container {
+        flex-direction: column;
+        width: 100%;
+        align-items:first baseline;
+    }
+
+    .skill-item {
+
+    }
+}
+
+.background-hero {
+    background-image: url(../../../public/backgrounds/clouds_background.jpeg);
+    background-size: cover;
+}
+
+
+.unstyled-link {
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,18 @@
+.footer-section {
+    background-color: var(--calm);
+    color: var(--primary);
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.download-resume-btn {
+    color: var(--purple);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.download-resume-btn:hover {
+    text-decoration: underline;
+}

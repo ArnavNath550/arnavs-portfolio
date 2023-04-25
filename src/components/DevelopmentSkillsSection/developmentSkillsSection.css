@@ -1,0 +1,10 @@
+.development-skills-section {
+    width: 100%;
+    background-size: cover;
+    background-image: url(../../../public/backgrounds/blue-abstract.png);
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    background-size: cover;
+    left: 0;
+}

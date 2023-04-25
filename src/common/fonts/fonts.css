@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Circular";
+    font-weight: 700;
+    font-display: swap;
+    src: url(./circular-bold.woff) format("woff2"), url(./circular-bold.woff2) format("woff"), url(./circular-bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Circular";
+    font-weight: 400;
+    font-display: swap;
+    src: url(./circular-regular.woff2) format("woff2"), url(./circular-regular.woff) format("woff"), url(./circular-regular.ttf) format('truetype');
+}

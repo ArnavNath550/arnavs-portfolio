@@ -1,0 +1,6 @@
+.squiggly-line path {
+    stroke: #000;
+    stroke-width: 6;
+    fill: none;
+    stroke-dasharray: 7 7;
+  }

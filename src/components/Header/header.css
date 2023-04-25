@@ -1,0 +1,32 @@
+.header {
+    padding: 2.5rem;
+    position: relative;
+    z-index: 100000;
+}
+
+.header-content {
+    display :flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.header-links nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-links nav ul li span:hover {
+    background: -webkit-linear-gradient(45deg,#7dcfff,#bcd0ff,#d3beff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-logo svg path {
+    fill: #fff;
+}

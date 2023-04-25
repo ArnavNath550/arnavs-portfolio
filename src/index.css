@@ -1,13 +1,32 @@
+@import url(./common/styles/commonClasses.css);
+@import url(./common/styles/variables.css);
+@import url(./common/fonts/fonts.css);
+@import url(./common/styles/hamburger.css);
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Circular', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--white);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.gyanContainer:after {
+  background-image: url(https://mydukaan.io/_next/static/media/banner-gradient.8c3b1accad6cbebfa78bb64a7aa43fc8.svg);
+  background-repeat: no-repeat;
+  width: 364px;
+  height: 100%;
+}
+
+.gyanContainer:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
 }

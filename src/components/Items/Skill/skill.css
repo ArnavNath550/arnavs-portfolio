@@ -1,0 +1,22 @@
+.skill-item {
+    background: #fff;
+    border-radius: 5px;
+    color: var(--primary);
+    width: inherit;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media all and (max-width: 767px) {
+    .skill-item {
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+}

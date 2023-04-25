@@ -1,0 +1,29 @@
+.startup-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--white);
+    padding: 20px;
+    color: var(--primary);
+    border-radius: 5px;
+    min-width: 300px;
+}
+
+.startup-card-heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.startup-card-date-ranges, .startup-card-profession {
+    font-weight: 500;
+    font-size: 17px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 320px;
+}
+
+.startup-card-link-btn {
+    color: var(--purple);
+    text-decoration:underline;
+}

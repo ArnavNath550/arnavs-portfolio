@@ -1,0 +1,41 @@
+.bio-section {
+    border: #fff;
+    background: var(--white);
+    position: relative;
+    color: var(--primary);
+    padding: 10rem;
+    padding-bottom: 0px;
+}
+
+.bio-section-paragraph {
+    font-size: 2.5rem;
+    line-height: 1;
+    line-height: 55px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--gray);
+    opacity: 0.5;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    transition: color 0.5s ease;
+}
+
+.bio-section:last-child {
+    margin: 0!important;
+}
+
+.bio-section-paragraph.active {
+    opacity: 1;
+    color: var(--primary);
+}
+
+@media all and (max-width: 767px) {
+    .bio-section {
+        padding: 2rem;
+    }
+
+    .bio-section-paragraph {
+        height: max-content;
+    }
+}

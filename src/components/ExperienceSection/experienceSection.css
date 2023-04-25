@@ -1,0 +1,42 @@
+.experience-section {
+    padding: 5rem;
+    background-color: var(--primary);
+}
+
+.experience-section-heading {
+    height: 170px;
+}
+
+.experience-section-heading span {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.experience-section-carousel {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+@media all and (max-width: 767px) {
+    .experience-section-heading {
+        height: max-content;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .experience-section {
+        padding: 2rem;
+    }
+
+    .experience-section-carousel {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow: scroll;
+    }
+
+    .startup-card {
+        padding: 0px;
+    }
+}
