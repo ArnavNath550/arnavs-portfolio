@@ -15,13 +15,6 @@ code {
     monospace;
 }
 
-.gyanContainer:after {
-  background-image: url(https://mydukaan.io/_next/static/media/banner-gradient.8c3b1accad6cbebfa78bb64a7aa43fc8.svg);
-  background-repeat: no-repeat;
-  width: 364px;
-  height: 100%;
-}
-
 .gyanContainer:after{
     content: "";
     position: absolute;
