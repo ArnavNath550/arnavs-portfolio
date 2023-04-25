@@ -9,6 +9,12 @@
     min-width: 300px;
 }
 
+@media all and (max-width: 767px) {
+    .startup-card {
+        min-width: 270px!important;
+    }
+}
+
 .startup-card-heading {
     font-size: 1.5rem;
     font-weight: 600;
