@@ -8,25 +8,25 @@ const ExperienceSection = () => {
     {
       'id': 0,
       'name': 'Studentmesh',
-      'date': '2013 - 2014',
+      'date': '2018 - 2019',
       'profession': 'Social media application for schools'
     },
     {
       'id': 1,
       'name': 'Enlazer',
-      'date': '2015 - 2017',
+      'date': '2019 - 2020',
       'profession': 'Question forum, for highschool and college students'
     },
     {
       'id': 2,
       'name': 'Flipadeal',
-      'date': '2018 - 2020',
+      'date': '2020 - 2021',
       'profession': 'Social Marketplace, Classifieds Platform'
     },
     {
       'id': 3,
       'name': 'Zeemaa',
-      'date': '2020 - 2022',
+      'date': '2021 - 2023',
       'profession': 'E-commerce app for Indian Thrift Stores',
       'link': 'www.zeemaa.in',
     }

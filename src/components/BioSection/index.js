@@ -39,7 +39,7 @@ const BioSection = () => {
         ref={(el) => (paragraphRefs.current[1] = el)}
         data-index={1}
       >
-        Started learning Software Development in 2013, by learning Visual Basic
+        Started learning Software Development in 2018, by learning Visual Basic
       </p>
       <p
         className={`bio-section-paragraph ${activeIndex == 2 ? 'active' : ''}`}
