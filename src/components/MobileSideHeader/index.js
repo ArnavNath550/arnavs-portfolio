@@ -1,18 +1,22 @@
 import React from 'react'
 import './mobileSideHeader.css'
 
-const MobileSideHeader = () => {
+const MobileSideHeader = ({setToggleSidebar}) => {
+  const changePane = (type) => {
+    setToggleSidebar();
+    window.location = `/#${type}`;
+  }
   return (
     <div className="mobile-sideheader-container mobile-only">
         <div className="mobile-sideheader-overlay"></div>
         <div className="mobile-sideheader-content">
         <nav>
             <ul>
-              <li><a>My Bio</a></li>
-              <li><a href="#sectionOne">My Development Skills</a></li>
-              <li><a href="#sectionTwo">My Designing Skills</a></li>
-              <li><a href="#sectionThree">My Experience</a></li>
-              <li><a href="#sectionFour">My Frontend Projects</a></li>
+              <li>My Bio</li>
+              <li  onClick={() => changePane("sectionOne")}>My Development Skills</li>
+              <li  onClick={() => changePane("sectionTwo")}>My Designing Skills</li>
+              <li  onClick={() => changePane("sectionThree")}>My Experience</li>
+              <li onClick={() => changePane("sectionFour")}>My Frontend Projects</li>
             </ul>
           </nav>
         </div>

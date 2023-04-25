@@ -3,7 +3,6 @@
     height: 100%;
     position: fixed;
     top: 0;
-
     z-index: 10000;
 }
 
@@ -23,7 +22,7 @@
 }
 
 .mobile-sideheader-content {
-    width: 50%;
+    width: 80%;
     background-color: #fff;
     height: 100%;
     position: absolute;

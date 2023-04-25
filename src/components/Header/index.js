@@ -42,7 +42,7 @@ const Header = () => {
     </header>
     <div className="only-mobile">
         {isActive == true ? (
-          <MobileSideHeader />
+          <MobileSideHeader setToggleSidebar={handleMobileSidebarOpen}/>
         ) : (
           <></>
         )}
