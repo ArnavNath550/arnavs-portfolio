@@ -8,7 +8,9 @@ const FooterSection = () => {
             Made with ❤️ by <strong>Arnav</strong>
         </div>
         <div className="download-resume-btn">
-            Download Resume
+            <a class="unstyled-link" href="/files/resume.pdf" download>
+              Download Resume
+            </a>
         </div>
     </div>
   )

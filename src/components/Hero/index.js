@@ -16,7 +16,7 @@ const Hero = () => {
 
         <div className="hero-profile">
             <div>
-                <img src="https://www.craftz.dog/_next/image?url=%2Fimages%2Ftakuya.jpg&w=128&q=75" />
+                <img src="arnav-nath-image.jpg" />
             </div>
         </div>
         <FadeUp>
